@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+[project]
+name = "PIP_lastfm-python_lule345"
+version = "1.0.0"
+authors = [
+{ name = "Malingen", email="admin@malingen.xyz" },
+]
+description = "A small Last.Fm search client written in python able to executed in terminal; Functions as a way for me to practice Python as beginner"
+readme = "README.md"
+requires-python = ">=3.14.6"
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.14",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+[project.urls]
+Github = "https://github.com/lule345/lastfm-python/tree/main"
+Website = "https://malingen.xyz/"
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
