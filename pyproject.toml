@@ -20,6 +20,7 @@ license = "GPL-3.0-or-later"
 license-files = ["LICENSE"]
 dependencies = [
     "climage"
+    "kdtree"
 ]
 [project.urls]
 Github = "https://github.com/lule345/lastfm-python/tree/main"
