@@ -1,4 +1,5 @@
 # lastfm-python
+# MOVED https://github.com/lule345/lastfmPython2
 A small Last.Fm search client written in python able to executed in terminal; Functions as a way for me to practice Python as beginner
 
 Usage:
