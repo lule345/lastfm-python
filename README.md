@@ -16,7 +16,7 @@ options:
 ```
 
 - Supply your own Last.Fm API Key (see: https://www.last.fm/api/account/create)
-- Requires [CLImage](https://github.com/pnappa/CLImage) to be installed
 - Licensed under GNU General Public License v3
+- Available at PIP: https://pypi.org/project/PIP-lastfm-python-lule345/1.0.0/
 
 ![screenshot demo of lastfm.py](/screenshot1.png)
